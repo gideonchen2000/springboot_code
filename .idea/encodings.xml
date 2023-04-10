@@ -6,5 +6,10 @@
     <file url="file://$PROJECT_DIR$/springboot002-first/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot003-multienv/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot003-multienv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot004-custom-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot005-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot006-servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot007-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot008-character-filter/src/main/java" charset="UTF-8" />
   </component>
 </project>

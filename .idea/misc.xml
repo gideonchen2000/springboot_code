@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/springboot001_pre/pom.xml" />
         <option value="$PROJECT_DIR$/springboot002-first/pom.xml" />
         <option value="$PROJECT_DIR$/springboot003-multienv/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot004-custom-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot005-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot006-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot007-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot008-character-filter/pom.xml" />
       </list>
     </option>
   </component>

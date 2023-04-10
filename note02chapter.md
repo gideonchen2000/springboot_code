@@ -61,4 +61,26 @@ server:
 开发环境的配置文件: application-dev.properties(application-dev.yml)  
 测试使用的配置： application-test.yml
 
-## 2.6 
+## 2.6 SpringBoot 自定义配置
+
+- @Value注解: @Value("${key}"), key来自application.properties(yml)
+- @ConfigurationProperties注解: 将整个文件映射成一个对象, 用于自定义配置项比较多的情况(属性: prefix 配置文件中的自定义key的前缀)
+
+## 2.7 SpringBoot 中使用JSP
+
+SpringBoot不推荐使用JSP, 而是使用模板技术代替JSP(现在更多使用前后端分离)
+
+## 2.8 使用容器
+
+通过代码, 从容器中获取对象  
+通过SpringApplication.run(Application.class, args); 的返回值获取容器
+
+## 2.9 CommandLineRunner接口, ApplicationRunner接口
+
+开发中可能会有这样的情景. 需要在容器启动后执行一些内容. 比如读取配置文件, 数
+据库连接之类的. SpringBoot 给我们提供了两个接口来帮助我们实现这种需求. 这两个接口
+分别为 CommandLineRunner 和 ApplicationRunner.  
+他们的执行时机为容器启动完成的时候. 
+这两个接口中都有一个 run 方法, 我们只需要实现这个方法即可. 这两个接口的不同之处
+在于: ApplicationRunner 中 run 方法的参数为 ApplicationArguments, 而 CommandLineRunner
+接口中 run 方法的参数为 String 数组  
