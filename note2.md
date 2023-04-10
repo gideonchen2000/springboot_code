@@ -51,3 +51,14 @@ server:
 ```
 注意: 当两种格式配置文件同时存在, 在SpringBoot2.4开始, 使用的是yml配置文件.  
 修改配置名称都为 application. 
+
+## 2.5 多环境配置
+
+有开发环境, 测试环境, 上线的环境  
+每个环境有不同的配置信息, 例如 端口, 上下文件, 数据库url, 用户名, 密码等等...  
+使用多环境配置文件, 可以方便的切换不同的配置  
+使用方法: 创建多个配置文件, 名称规则： application-环境名称.properties(yml)  
+开发环境的配置文件: application-dev.properties(application-dev.yml)  
+测试使用的配置： application-test.yml
+
+## 2.6 
