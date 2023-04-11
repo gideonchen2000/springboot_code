@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/springboot006-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/springboot007-filter/pom.xml" />
         <option value="$PROJECT_DIR$/springboot008-character-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot009-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot010-transaction/pom.xml" />
       </list>
     </option>
   </component>

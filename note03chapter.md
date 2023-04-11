@@ -18,7 +18,7 @@ SpringBoot使用拦截器步骤
 ServletRegistrationBean 用来做在servlet 3.0+容器中注册servlet的功能, 但更具有SpringBean友好性  
 
 实现步骤:
-1. 创建Servlet类(Myservlet.java), 创建类继承HttpServlet
+1. 创建Servlet类(MyServlet.java), 创建类继承HttpServlet
 2. 注册Servlet(WebApplicationConfig.java), 让框架能找到Servlet
 3. 主启动类 启动 在浏览器中访问loginServlet
 
@@ -45,7 +45,7 @@ CharacterEncodingFilter: 解决post请求中乱码的问题
 Spring Boot项目默认启用了CharacterEncodingFilter, 设置他的属性就可以  
 在 application.properties 文件中  
 ```properties
-# 让系统的CharacterEncdoingFilter生效 
+# 让系统的CharacterEncodingFilter生效 
 server.servlet.encoding.enabled=true
 #指定使用的编码方式
 server.servlet.encoding.charset=utf-8

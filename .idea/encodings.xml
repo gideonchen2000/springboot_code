@@ -11,5 +11,8 @@
     <file url="file://$PROJECT_DIR$/springboot006-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot007-filter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot008-character-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot009-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot009-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot010-transaction/src/main/java" charset="UTF-8" />
   </component>
 </project>

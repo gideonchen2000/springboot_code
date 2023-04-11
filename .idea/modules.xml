@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot001_pre/springboot001-pre.iml" filepath="$PROJECT_DIR$/springboot001_pre/springboot001-pre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot009-mapper/springboot009-mapper.iml" filepath="$PROJECT_DIR$/springboot009-mapper/springboot009-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_code.iml" filepath="$PROJECT_DIR$/springboot_code.iml" />
     </modules>
   </component>
