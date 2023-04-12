@@ -12,6 +12,7 @@
         <module name="springboot006-servlet" />
         <module name="springboot003-multienv" />
         <module name="springboot010-transaction" />
+        <module name="springboot011-restful" />
         <module name="springboot005-interceptor" />
         <module name="springboot007-filter" />
         <module name="springboot008-character-filter" />
@@ -33,6 +34,7 @@
       <module name="springboot008-character-filter" options="-parameters" />
       <module name="springboot009-mapper" options="-parameters" />
       <module name="springboot010-transaction" options="-parameters" />
+      <module name="springboot011-restful" options="-parameters" />
     </option>
   </component>
 </project>
