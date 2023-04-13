@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot009-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/springboot010-transaction/pom.xml" />
         <option value="$PROJECT_DIR$/springboot011-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-login-demo/pom.xml" />
       </list>
     </option>
   </component>

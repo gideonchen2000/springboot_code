@@ -13,6 +13,7 @@
         <module name="springboot003-multienv" />
         <module name="springboot010-transaction" />
         <module name="springboot011-restful" />
+        <module name="springboot-login-demo" />
         <module name="springboot005-interceptor" />
         <module name="springboot007-filter" />
         <module name="springboot008-character-filter" />
@@ -25,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-login-demo" options="-parameters" />
       <module name="springboot002-first" options="-parameters" />
       <module name="springboot003-multienv" options="-parameters" />
       <module name="springboot004-custom-yml" options="-parameters" />
